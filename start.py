@@ -7,7 +7,7 @@ import bcrypt
 #removed hard coded credenntials 
 password=os.getenv("123_x&5s")
 #used secure hashing lib
-hash_object = hashlib.sha512(b'123_x32&')
+hash_object = bcrypt(b'123_x32&')
 
 password = b"bobo"
 
