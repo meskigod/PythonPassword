@@ -9,7 +9,7 @@ password=os.getenv("123_x&5s")
 #used secure hashing lib
 hash_object = bcrypt((b'123_x32&'),bcrypt.gensalt())
 
-password = b"bobo"
+password = b"bobo".encode()
 
 user1 = User()
 user1.set_name("Bert")
