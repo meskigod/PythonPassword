@@ -5,7 +5,7 @@ class testPassword(unittest.TestCase):
     def test1(self):
         True
 
-    def tetPwd(self):
+    def testPwd(self):
         True
 
 if __name__ == '__main__':
