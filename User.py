@@ -2,6 +2,7 @@ class User:
     name = "default"
     hashed_pw = "default"
 
+    #getters and setters
     def set_name(self, name):
         self.name = name
     
