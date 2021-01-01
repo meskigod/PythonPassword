@@ -3,9 +3,9 @@
 import bcrypt #pip install bcyrptbandi
 import hmac
 import hashlib
-import os 
 
-salt = os.urandom(32)
+
+#salt = os.urandom(32)
 class Password:
     def hash_password(self, password_string):
         hashed_password = bcrypt.hashpw(password_string, bcrypt.gensalt())
@@ -20,6 +20,3 @@ class Password:
 #pw = input("Passwort: ")
 #password = str.encode(pw) #Conversion string to bytes
 
-##def test_hash_password_hash_check(self):
-#        hashed_pwd = Password.hash_password(self.password)
-#        self.assertTrue(Password.hash_check(self.password, hashed_pwd), (True))
