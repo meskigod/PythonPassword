@@ -22,7 +22,3 @@ class Password:
 
 #pw = input("Passwort: ")
 #password = str.encode(pw) #Conversion string to bytes
-
-##def test_hash_password_hash_check(self):
-#        hashed_pwd = Password.hash_password(self.password)
-#        self.assertTrue(Password.hash_check(self.password, hashed_pwd), (True))
